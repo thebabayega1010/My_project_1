@@ -1,0 +1,167 @@
+body{
+	margin:0px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.header {
+	background: black;
+    padding: 15px 20px;
+	position: relative;
+	border-bottom:8px solid #e7e717;
+}
+.clearfix:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.header_left{
+	width:40%;
+	float:left;
+	color:#ccc;
+}
+
+.header_left h1, h5{
+	margin:10px 20px;
+	color:#ccc;
+}
+
+.header_left h5{
+	margin-left:30px;
+}
+
+.header_right{
+	width:45%;
+	float:right;
+}
+
+.header_right ul{
+	border-radius:10px;
+}
+
+.header_right ul li{
+	list-style: none;
+	float:left;
+	padding:10px;
+	background-color:#ccc;
+	color:#000;
+	border-right:1px solid #000;
+	border-radius:5px;
+	margin: 10px;	
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.main_content{
+	width:100%;
+	background-color:grey;
+}
+
+.main_left{
+	float:left;
+	width:50%;
+	box-sizing:border-box;
+}
+
+.main_left img{
+	border: 15px solid #ccc;
+	box-sizing:border-box;
+	margin: 20px 20px 20px 60px;
+}
+.main_right {
+	float: right;
+	width: 50%;
+	box-sizing: border-box;
+	padding-right: 120px;
+	padding-top: 20px;
+	font-family:helvetica;
+}
+.main_right h3 {
+	font-size: 18px;
+	line-height: 30px;
+	color:#ccc;
+}
+
+.main_right h1 h3{
+	color:#fff;
+}
+
+#button{
+	background-color:yellow;
+	padding:3px 15px;
+	font-size:14px;
+	font-weight:bold;
+	border-radius:7px;
+	width:15%;
+}
+
+.article{
+	width:100%;
+	border-bottom:8px solid green;
+}
+
+.article_left{
+	width:50%;
+	padding:30px 30px 30px 80px;
+	color:grey;
+	font-family:sans;
+	float:left;
+}
+
+#color_black{
+	color:black;
+	font-family:sans;
+}
+.article_right{
+	width:35%;
+	float:left;
+	padding-left: 90px;
+	box-sizing: border-box;
+	padding-top: 70px;
+}
+
+#latest_news{
+	background-color:black;
+	border:1px solid #ccc;
+}
+
+#latest_news h3{
+	color:white;
+	padding-left:12px;
+}
+
+.news{
+	background-color:#ccc6;
+	border:1px solid #ccc;
+}
+
+.news img{
+	float:left;
+	width:26%;
+	margin:10px 20px;
+}
+
+.news p{
+	float:left;
+	width: 35%;
+}
+
+.footer{
+	background-color:black;
+	width:100%;
+	padding:60px;
+}
+
+.footer ul{
+	float:left;
+	width:15%;
+}
+.footer ul li{
+	list-style:none;
+	color:#ffffff;
+}
+
+.footer h2{
+	list-style:none;
+	color:#ffffff;
+	margin:0px;
+
+}
